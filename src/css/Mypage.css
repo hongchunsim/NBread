@@ -1,0 +1,101 @@
+body {
+  background-color: white;
+}
+
+.mypage-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.mypage {
+  height: 100vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 100px 0;
+
+  background-color: rgba(224, 224, 224, 0.25);
+}
+
+.mypage__column {
+  width: 25vw;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mypage__column-list {
+  display: flex;
+}
+
+.mypage__column-title {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 200px;
+
+  font-size: 17px;
+  color: white;
+  background-color: rgb(117, 81, 57);
+  border-radius: 4%;
+}
+
+.mypage__column-result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
+
+hr {
+  margin-top: 100px;
+  color: black;
+  width: 50vw;
+}
+
+.mypage__form {
+}
+
+.mypage__column input,
+.mypage__column select {
+  width: 80%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.mypage__column button {
+  margin: 10px 0;
+  width: 20vw;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.mypage__column button {
+  background-color: rgb(242, 237, 215);
+  border: 2px solid rgb(117, 81, 57);
+}
+
+.mypage__column button:hover {
+  background-color: rgb(117, 81, 57);
+  cursor: pointer;
+}
+
+.mypage__column a {
+  text-decoration: none;
+  color: black;
+  width: 20vw;
+  height: 50px;
+}
+
+.mypage__column button:hover a {
+  color: white;
+}

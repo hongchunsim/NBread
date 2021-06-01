@@ -1,0 +1,115 @@
+body {
+  background-color: white;
+}
+
+.pay-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.pay {
+  height: 145vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 100px 0;
+
+  background-color: rgba(224, 224, 224, 0.25);
+}
+
+.pay__column {
+  width: 25vw;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pay__column-list {
+  display: flex;
+}
+
+.pay__column-title {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 200px;
+
+  font-size: 17px;
+  color: white;
+  background-color: rgb(117, 81, 57);
+  border-radius: 4%;
+}
+
+.pay__column-result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
+
+hr {
+  margin-top: 100px;
+  color: black;
+  width: 50vw;
+}
+
+.pay__form {
+}
+
+.pay__column input,
+.pay__column select {
+  width: 80%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.pay__column input {
+  border: 1px solid rgba(0.5, 0.5, 0.5, 0.2);
+}
+
+.pay__column select {
+  margin-bottom: 10px;
+  box-shadow: 0 0 0 1px rgba(0.5, 0.5, 0.5, 0.2);
+}
+
+.pay__column input:focus,
+.pay__column select:focus {
+  outline: none;
+  background-color: rgb(242, 237, 215);
+  box-shadow: 0 0 0 2px rgb(117, 81, 57);
+}
+
+.pay__column select option {
+  border-radius: 10px;
+}
+
+.pay__column__other-pay {
+  display: flex;
+  flex-direction: column;
+}
+
+.pay__column__other-pay button {
+  margin: 10px 0;
+  width: 20vw;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.pay__column__other-pay button {
+  background-color: rgb(242, 237, 215);
+  border: 2px solid rgb(117, 81, 57);
+}
+
+.pay__column__other-pay button:hover {
+  background-color: rgb(117, 81, 57);
+  cursor: pointer;
+}

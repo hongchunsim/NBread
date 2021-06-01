@@ -1,0 +1,27 @@
+.bottom-bar {
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(117, 81, 57);
+  color: rgb(242, 237, 215);
+
+  bottom: 0;
+}
+
+.bottom-bar__column {
+  display: flex;
+  align-items: center;
+
+  padding-top: 20px;
+  margin-left: 50px;
+}
+
+.bottom-bar__link {
+  font-size: 18px;
+  margin-right: 20px;
+  cursor: pointer;
+  color: rgb(242, 237, 215);
+}
+
+.bottom-bar__column-copyright {
+  font-size: 13px;
+}

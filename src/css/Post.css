@@ -1,0 +1,88 @@
+body {
+  background-color: white;
+}
+
+.post-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.post {
+  height: 110vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+
+  left: 5%;
+  margin: 100px 0;
+
+  background-color: rgba(224, 224, 224, 0.25);
+}
+
+.post__column {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post__column fieldset {
+  border: none;
+  margin: 30px;
+}
+
+.post__column legend {
+  font-size: 20px;
+}
+
+.post__column input,
+.post__column select {
+  width: 18vw;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+}
+
+.post__column input {
+  border: 1px solid rgba(0.5, 0.5, 0.5, 0.2);
+}
+
+.post__column input:focus {
+  outline: none;
+  background-color: rgb(242, 237, 215);
+  box-shadow: 0 0 0 2px rgb(117, 81, 57);
+}
+
+hr {
+  color: black;
+  width: 50vw;
+}
+
+.post__column p {
+  font-size: 20px;
+}
+
+.post__column__other-post {
+  display: flex;
+  flex-direction: column;
+}
+
+.post__column__other-post button {
+  margin: 10px 0;
+  width: 20vw;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.post__column__other-post button {
+  background-color: rgb(242, 237, 215);
+  border: 2px solid rgb(117, 81, 57);
+}
+
+.post__column__other-post button:hover {
+  background-color: rgb(117, 81, 57);
+  cursor: pointer;
+}

@@ -1,0 +1,60 @@
+/* Components */
+@import "TopBar.css";
+@import "BottomBar.css";
+
+/* Screens */
+@import "Main.css";
+@import "Login.css";
+@import "Join.css";
+@import "Post.css";
+@import "Pay.css";
+@import "Mypage.css";
+
+/*
+
+ Screens 
+@import "screens/mainBeforeLogin.css";
+*/
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@font-face {
+  font-family: "Eulyoo1945-SemiBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RIDIBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+}
+
+body {
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-bar__column:first-child {
+}
+
+.top-bar__link,
+.main-info-first__column,
+.bottom-bar,
+.join__column,
+#join-submit,
+button,
+.login__column,
+.post__column,
+.pay__column {
+  font-family: "RIDIBatang";
+}
